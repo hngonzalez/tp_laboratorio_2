@@ -97,5 +97,14 @@ namespace MiCalculadora
 
             
         }
+
+        private void BtnConvertirADecimal_Click(object sender, EventArgs e)
+        {
+            Numero numAConvertir = new Numero();
+            string strNumero = string.Empty;
+
+            lblResultado.Text = numAConvertir.BinarioDecimal(lblResultado.Text);
+            
+        }
     }
 }

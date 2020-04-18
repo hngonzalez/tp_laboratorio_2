@@ -4,3 +4,9 @@ C:\Users\Nahue\Desktop\Carpeta AUX para TPS\Entidades\Entidades\bin\Debug\Entida
 C:\Users\Nahue\Desktop\Carpeta AUX para TPS\Entidades\Entidades\bin\Debug\Entidades.pdb
 C:\Users\Nahue\Desktop\Carpeta AUX para TPS\Entidades\Entidades\obj\Debug\Entidades.dll
 C:\Users\Nahue\Desktop\Carpeta AUX para TPS\Entidades\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-1\Entidades\Entidades\bin\Debug\Entidades.dll
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-1\Entidades\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-1\Entidades\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-1\Entidades\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-1\Entidades\Entidades\obj\Debug\Entidades.dll
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-1\Entidades\Entidades\obj\Debug\Entidades.pdb
