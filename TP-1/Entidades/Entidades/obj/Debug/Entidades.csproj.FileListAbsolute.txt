@@ -1,0 +1,6 @@
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\Entidades\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\Entidades\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\Entidades\Entidades\bin\Debug\Entidades.dll
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\Entidades\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\Entidades\Entidades\obj\Debug\Entidades.dll
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\Entidades\Entidades\obj\Debug\Entidades.pdb
