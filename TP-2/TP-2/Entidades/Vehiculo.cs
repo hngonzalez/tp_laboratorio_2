@@ -12,6 +12,9 @@ namespace Entidades
     public abstract class Vehiculo
     {
         #region Enumerable
+        /// <summary>
+        /// Enumerador
+        /// </summary>
         public enum EMarca
         {
             Chevrolet, Ford, Renault, Toyota, BMW, Honda
@@ -35,15 +38,19 @@ namespace Entidades
         protected abstract ETamanio Tamanio { get; }
         #endregion
 
-        #region Methods
+        #region Constructors
+        /// <summary>
+        /// Overload del constructor de la clase
+        /// </summary>
         public Vehiculo(string chasis, EMarca marca, ConsoleColor color)
         {
             this.chasis = chasis;
             this.marca = marca;
             this.color = color;
         }
+        #endregion
 
-
+        #region Methods
         /// <summary>
         /// Publica todos los datos del Vehiculo.
         /// </summary>
@@ -52,7 +59,12 @@ namespace Entidades
         {
             return (string)this;
         }
+        #endregion
 
+        #region Operators
+        /// <summary>
+        /// 
+        /// </summary>
         public static explicit operator string(Vehiculo p)
         {
             StringBuilder sb = new StringBuilder();
@@ -64,9 +76,7 @@ namespace Entidades
 
             return sb.ToString();
         }
-        #endregion
 
-        #region Operators
         /// <summary>
         /// Dos vehiculos son iguales si comparten el mismo chasis
         /// </summary>

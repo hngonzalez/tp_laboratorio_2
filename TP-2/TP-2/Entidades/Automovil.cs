@@ -10,6 +10,9 @@ namespace Entidades
     public class Automovil : Vehiculo
     {
         #region Enumerables
+        /// <summary>
+        /// Enumeradores
+        /// </summary>
         public enum ETipo { Monovolumen, Sedan }
         #endregion
 
@@ -17,6 +20,7 @@ namespace Entidades
         private ETipo tipo;
         #endregion
 
+        #region Constructors
         /// <summary>
         /// Por defecto, TIPO será Monovolumen
         /// </summary>
@@ -40,7 +44,9 @@ namespace Entidades
         {
             this.tipo = tipo;
         }
+        #endregion
 
+        #region Properties
         /// <summary>
         /// Los automoviles son medianos
         /// </summary>
@@ -51,7 +57,9 @@ namespace Entidades
                 return ETamanio.Mediano;
             }
         }
+        #endregion
 
+        #region Methods
         public override sealed string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
@@ -65,5 +73,6 @@ namespace Entidades
 
             return sb.ToString();
         }
+        #endregion
     }
 }

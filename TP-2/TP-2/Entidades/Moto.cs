@@ -8,12 +8,8 @@ namespace Entidades
 {
     public class Moto : Vehiculo
     {
-        public Moto(EMarca marca, string chasis, ConsoleColor color) 
-            : base(chasis,marca,color)
-        {
 
-        }
-
+        #region Propeties
         /// <summary>
         /// Las motos son chicas
         /// </summary>
@@ -24,7 +20,23 @@ namespace Entidades
                 return ETamanio.Chico;
             }
         }
+        #endregion
 
+        #region Constructors
+        /// <summary>
+        /// Overload del constructor de la clase
+        /// </summary>
+        /// <param name="marca">Objeto donde se agregará el elemento</param>
+        /// <param name="chasis">Objeto donde se agregará el elemento</param>
+        /// <param name="color">Objeto donde se agregará el elemento</param>
+        public Moto(EMarca marca, string chasis, ConsoleColor color) 
+            : base(chasis,marca,color)
+        {
+
+        }
+        #endregion
+
+        #region Methods
         public override sealed string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
@@ -37,5 +49,6 @@ namespace Entidades
 
             return sb.ToString();
         }
+        #endregion
     }
 }

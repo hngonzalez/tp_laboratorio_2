@@ -8,11 +8,18 @@ namespace Entidades
 {
     public class Camioneta : Vehiculo
     {
+        #region Constructors
+        /// <summary>
+        /// Overload del constructor de la clase
+        /// </summary>
         public Camioneta(EMarca marca, string chasis, ConsoleColor color)
             : base(chasis, marca, color)
         {
 
         }
+        #endregion
+
+        #region Properties
         /// <summary>
         /// Las camionetas son grandes
         /// </summary>
@@ -23,7 +30,9 @@ namespace Entidades
                 return ETamanio.Grande;
             }
         }
+        #endregion
 
+        #region Methods
         public override sealed string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
@@ -36,5 +45,6 @@ namespace Entidades
 
             return sb.ToString();
         }
+        #endregion
     }
 }

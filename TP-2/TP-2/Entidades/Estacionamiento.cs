@@ -12,6 +12,9 @@ namespace Entidades
     public sealed class Estacionamiento
     {
         #region Enumerators
+        /// <summary>
+        /// Enumerador
+        /// </summary>
         public enum ETipo
         {
             Moto, Automovil, Camioneta, Todos
@@ -19,15 +22,25 @@ namespace Entidades
         #endregion
 
         #region Atributtes
+        /// <summary>
+        /// Atributos
+        /// </summary>
         private List<Vehiculo> vehiculos;
         private int espacioDisponible;
-        #endregion 
+        #endregion
 
         #region "Constructores"
+        /// <summary>
+        /// Constructor de la clase por defecto
+        /// </summary>
         private Estacionamiento()
         {
             this.vehiculos = new List<Vehiculo>();
         }
+
+        /// <summary>
+        /// Overload de la clase por defecto
+        /// </summary>
         public Estacionamiento(int espacioDisponible) : this()
         {
             this.espacioDisponible = espacioDisponible;
@@ -46,39 +59,37 @@ namespace Entidades
         #endregion
 
         #region "Métodos"
-
         /// <summary>
         /// Expone los datos del elemento y su lista (incluidas sus herencias)
         /// SOLO del tipo requerido
         /// </summary>
-        /// <param name="c">Elemento a exponer</param>
+        /// <param name="estacionamiento">Elemento a exponer</param>
         /// <param name="ETipo">Tipos de ítems de la lista a mostrar</param>
         /// <returns></returns>
-        public static string Mostrar(Estacionamiento c, ETipo tipo)
+        public static string Mostrar(Estacionamiento estacionamiento, ETipo tipo)
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendFormat("Tenemos {0} lugares ocupados de un total de {1} disponibles", c.vehiculos.Count, c.espacioDisponible);
+            sb.AppendFormat("Tenemos {0} lugares ocupados de un total de {1} disponibles", estacionamiento.vehiculos.Count, estacionamiento.espacioDisponible);
             sb.AppendLine("");
-            foreach (Vehiculo v in c.vehiculos)
+            foreach (Vehiculo vehiculo in estacionamiento.vehiculos)
             {
                 switch (tipo)
                 {
                     case ETipo.Camioneta:
-                        sb.AppendLine(v.Mostrar());
+                        sb.AppendLine(vehiculo.Mostrar());
                         break;
                     case ETipo.Moto:
-                        sb.AppendLine(v.Mostrar());
+                        sb.AppendLine(vehiculo.Mostrar());
                         break;
                     case ETipo.Automovil:
-                        sb.AppendLine(v.Mostrar());
+                        sb.AppendLine(vehiculo.Mostrar());
                         break;
                     default:
-                        sb.AppendLine(v.Mostrar());
+                        sb.AppendLine(vehiculo.Mostrar());
                         break;
                 }
             }
-
             return sb.ToString();
         }
         #endregion
@@ -102,7 +113,7 @@ namespace Entidades
 
             if (cant < c.espacioDisponible)
             {
-                c.vehiculos.Add(p);
+               c.vehiculos.Add(p);
             }
             return c;
         }
