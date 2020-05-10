@@ -1,0 +1,7 @@
+C:\Users\Nahue\Desktop\Parcial\HugoNahuel.Gonzalez.2D\ClassLibrary\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Nahue\Desktop\Parcial\HugoNahuel.Gonzalez.2D\Entidades\bin\Debug\Entidades.dll
+C:\Users\Nahue\Desktop\Parcial\HugoNahuel.Gonzalez.2D\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Nahue\Desktop\Parcial\HugoNahuel.Gonzalez.2D\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Nahue\Desktop\Parcial\HugoNahuel.Gonzalez.2D\Entidades\obj\Debug\Entidades.dll
+C:\Users\Nahue\Desktop\Parcial\HugoNahuel.Gonzalez.2D\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Nahue\Desktop\Parcial\HugoNahuel.Gonzalez.2D\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache

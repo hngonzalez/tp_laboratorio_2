@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HugoNahuel.Gonzalez.2D", "HugoNahuel.Gonzalez.2D\HugoNahuel.Gonzalez.2D.csproj", "{AFC38293-D457-45D1-824F-594F33658328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{DEA5DF87-0CA2-4BBA-BC0C-E04300148B25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFC38293-D457-45D1-824F-594F33658328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC38293-D457-45D1-824F-594F33658328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC38293-D457-45D1-824F-594F33658328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC38293-D457-45D1-824F-594F33658328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA5DF87-0CA2-4BBA-BC0C-E04300148B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA5DF87-0CA2-4BBA-BC0C-E04300148B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA5DF87-0CA2-4BBA-BC0C-E04300148B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA5DF87-0CA2-4BBA-BC0C-E04300148B25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0919F566-E236-4ADA-B04E-9BD4D801C657}
+	EndGlobalSection
+EndGlobal
