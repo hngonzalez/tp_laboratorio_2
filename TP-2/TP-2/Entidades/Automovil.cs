@@ -13,7 +13,7 @@ namespace Entidades
         /// <summary>
         /// Enumeradores
         /// </summary>
-        public enum ETipo { Monovolumen, Sedan }
+        public enum ETipo { Monovolumen=4, Sedan }
         #endregion
 
         #region Atributtes

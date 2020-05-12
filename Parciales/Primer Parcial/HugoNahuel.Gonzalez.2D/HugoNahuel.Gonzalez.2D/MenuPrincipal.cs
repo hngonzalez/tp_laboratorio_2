@@ -455,5 +455,76 @@ namespace HugoNahuel.Gonzalez._2D
             docenteSueldo.MdiParent = this.MdiParent;
             docenteSueldo.ShowDialog();
         }
+
+        private void Button8_MouseHover(object sender, EventArgs e)
+        {
+            button8.ForeColor = Color.FromArgb(255, 255, 255);
+            button8.BackColor = Color.FromArgb(255, 71, 87);
+            pictureBox9.BackColor = Color.FromArgb(255, 71, 87);
+        }
+
+        private void Button8_MouseLeave(object sender, EventArgs e)
+        {
+            button8.BackColor = Color.FromArgb(255, 255, 255);
+            button8.ForeColor = Color.FromArgb(255, 71, 87);
+            pictureBox9.BackColor = Color.FromArgb(255, 255, 255);
+        }
+
+        private void Button7_MouseHover(object sender, EventArgs e)
+        {
+            button7.ForeColor = Color.FromArgb(255, 255, 255);
+            button7.BackColor = Color.FromArgb(255, 71, 87);
+            pictureBox8.BackColor = Color.FromArgb(255, 71, 87);
+        }
+
+        private void Button7_MouseLeave(object sender, EventArgs e)
+        {
+            button7.BackColor = Color.FromArgb(255, 255, 255);
+            button7.ForeColor = Color.FromArgb(255, 71, 87);
+            pictureBox8.BackColor = Color.FromArgb(255, 255, 255);
+        }
+
+        private void Button10_MouseHover(object sender, EventArgs e)
+        {
+            button10.ForeColor = Color.FromArgb(255, 255, 255);
+            button10.BackColor = Color.FromArgb(255, 71, 87);
+            pictureBox11.BackColor = Color.FromArgb(255, 71, 87);
+        }
+
+        private void Button10_MouseLeave(object sender, EventArgs e)
+        {
+            button10.BackColor = Color.FromArgb(255, 255, 255);
+            button10.ForeColor = Color.FromArgb(255, 71, 87);
+            pictureBox11.BackColor = Color.FromArgb(255, 255, 255);
+            
+        }
+
+        private void Button9_MouseHover(object sender, EventArgs e)
+        {
+            button9.ForeColor = Color.FromArgb(255, 255, 255);
+            button9.BackColor = Color.FromArgb(255, 71, 87);
+            pictureBox10.BackColor = Color.FromArgb(255, 71, 87);
+        }
+
+        private void Button9_MouseLeave(object sender, EventArgs e)
+        {
+            button9.BackColor = Color.FromArgb(255, 255, 255);
+            button9.ForeColor = Color.FromArgb(255, 71, 87);
+            pictureBox10.BackColor = Color.FromArgb(255, 255, 255);
+        }
+
+        private void Button6_MouseHover(object sender, EventArgs e)
+        {
+            button6.ForeColor = Color.FromArgb(255, 255, 255);
+            button6.BackColor = Color.FromArgb(255, 71, 87);
+            pictureBox7.BackColor = Color.FromArgb(255, 71, 87);
+        }
+
+        private void Button6_MouseLeave(object sender, EventArgs e)
+        {
+            button6.BackColor = Color.FromArgb(255, 255, 255);
+            button6.ForeColor = Color.FromArgb(255, 71, 87);
+            pictureBox7.BackColor = Color.FromArgb(255, 255, 255);
+        }
     }
 }

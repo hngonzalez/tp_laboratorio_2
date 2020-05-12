@@ -413,6 +413,8 @@
             this.button6.TabIndex = 77;
             this.button6.Text = "Información Padres";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.MouseLeave += new System.EventHandler(this.Button6_MouseLeave);
+            this.button6.MouseHover += new System.EventHandler(this.Button6_MouseHover);
             // 
             // button7
             // 
@@ -429,6 +431,8 @@
             this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.Button7_Click);
+            this.button7.MouseLeave += new System.EventHandler(this.Button7_MouseLeave);
+            this.button7.MouseHover += new System.EventHandler(this.Button7_MouseHover);
             // 
             // pictureBox8
             // 
@@ -455,6 +459,8 @@
             this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.Button8_Click);
+            this.button8.MouseLeave += new System.EventHandler(this.Button8_MouseLeave);
+            this.button8.MouseHover += new System.EventHandler(this.Button8_MouseHover);
             // 
             // pictureBox9
             // 
@@ -480,6 +486,8 @@
             this.button9.Text = "Recaudación Jardín";
             this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.MouseLeave += new System.EventHandler(this.Button9_MouseLeave);
+            this.button9.MouseHover += new System.EventHandler(this.Button9_MouseHover);
             // 
             // pictureBox10
             // 
@@ -505,6 +513,8 @@
             this.button10.Text = "Recaudación Aula";
             this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.MouseLeave += new System.EventHandler(this.Button10_MouseLeave);
+            this.button10.MouseHover += new System.EventHandler(this.Button10_MouseHover);
             // 
             // pictureBox11
             // 

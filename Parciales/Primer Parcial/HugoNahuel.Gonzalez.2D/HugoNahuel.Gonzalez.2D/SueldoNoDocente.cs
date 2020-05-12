@@ -17,7 +17,7 @@ namespace HugoNahuel.Gonzalez._2D
         {
             InitializeComponent();
         }
-
+        
         private void SueldoNoDocente_Load(object sender, EventArgs e)
         {
             Administrativo cocina = new Administrativo("Carlos", "Pelaez", 35487898, false, new System.DateTime(2020, 5, 7, 8, 00, 00), new System.DateTime(2020, 5, 7, 12, 00, 00), ECargo.Cocina);
@@ -32,7 +32,7 @@ namespace HugoNahuel.Gonzalez._2D
             lblSueldoSecretaria.Text = secretaria.Salario.ToString();
             lblSueldoPorteria.Text = porteriaa.Salario.ToString();
         }
-
+        
         private void BtnSueldoNoDocenteCerrar_Click(object sender, EventArgs e)
         {
             this.Close();
