@@ -1,0 +1,26 @@
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesInstanciadas\bin\Debug\EntidadesInstanciadas.dll
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesInstanciadas\bin\Debug\EntidadesInstanciadas.pdb
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesInstanciadas\bin\Debug\Archivos.dll
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesInstanciadas\bin\Debug\EntidadesAbstractas.dll
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesInstanciadas\bin\Debug\Excepciones.dll
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesInstanciadas\bin\Debug\Archivos.pdb
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesInstanciadas\bin\Debug\EntidadesAbstractas.pdb
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesInstanciadas\bin\Debug\Excepciones.pdb
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesInstanciadas\obj\Debug\EntidadesInstanciadas.csprojAssemblyReference.cache
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesInstanciadas\obj\Debug\EntidadesInstanciadas.csproj.CoreCompileInputs.cache
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesInstanciadas\obj\Debug\EntidadesInstanciadas.csproj.CopyComplete
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesInstanciadas\obj\Debug\EntidadesInstanciadas.dll
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesInstanciadas\obj\Debug\EntidadesInstanciadas.pdb
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesInstanciadas\bin\Debug\EntidadesInstanciadas.dll
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesInstanciadas\bin\Debug\EntidadesInstanciadas.pdb
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesInstanciadas\bin\Debug\Archivos.dll
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesInstanciadas\bin\Debug\EntidadesAbstractas.dll
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesInstanciadas\bin\Debug\Excepciones.dll
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesInstanciadas\bin\Debug\Archivos.pdb
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesInstanciadas\bin\Debug\EntidadesAbstractas.pdb
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesInstanciadas\bin\Debug\Excepciones.pdb
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesInstanciadas\obj\Debug\EntidadesInstanciadas.csprojAssemblyReference.cache
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesInstanciadas\obj\Debug\EntidadesInstanciadas.csproj.CoreCompileInputs.cache
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesInstanciadas\obj\Debug\EntidadesInstanciadas.csproj.CopyComplete
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesInstanciadas\obj\Debug\EntidadesInstanciadas.dll
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesInstanciadas\obj\Debug\EntidadesInstanciadas.pdb

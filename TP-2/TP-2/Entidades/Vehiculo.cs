@@ -96,7 +96,7 @@ namespace Entidades
         /// <returns></returns>
         public static bool operator !=(Vehiculo vehiculo1, Vehiculo vehiculo2)
         {
-            return (vehiculo1.chasis != vehiculo2.chasis);
+            return (!(vehiculo1.chasis == vehiculo2.chasis));
         }
         #endregion
     }

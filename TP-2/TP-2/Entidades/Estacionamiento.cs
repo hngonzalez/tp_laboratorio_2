@@ -69,21 +69,33 @@ namespace Entidades
         public static string Mostrar(Estacionamiento estacionamiento, ETipo tipo)
         {
             StringBuilder sb = new StringBuilder();
+            Type type = null;
+
 
             sb.AppendFormat("Tenemos {0} lugares ocupados de un total de {1} disponibles", estacionamiento.vehiculos.Count, estacionamiento.espacioDisponible);
             sb.AppendLine("");
             foreach (Vehiculo vehiculo in estacionamiento.vehiculos)
             {
+                type = vehiculo.GetType();
                 switch (tipo)
                 {
                     case ETipo.Camioneta:
-                        sb.AppendLine(vehiculo.Mostrar());
+                        if (type.Name.ToString() == ETipo.Camioneta.ToString())
+                        {
+                            sb.AppendLine(vehiculo.Mostrar());
+                        }
                         break;
                     case ETipo.Moto:
-                        sb.AppendLine(vehiculo.Mostrar());
+                        if (type.Name.ToString() == ETipo.Moto.ToString())
+                        {
+                            sb.AppendLine(vehiculo.Mostrar());
+                        }
                         break;
                     case ETipo.Automovil:
-                        sb.AppendLine(vehiculo.Mostrar());
+                        if (type.Name.ToString() == ETipo.Automovil.ToString())
+                        {
+                            sb.AppendLine(vehiculo.Mostrar());
+                        }
                         break;
                     default:
                         sb.AppendLine(vehiculo.Mostrar());
@@ -131,7 +143,7 @@ namespace Entidades
                 {
                     if (v == p)
                     {
-                        c.vehiculos.Remove(p);
+                        c.vehiculos.Remove(v);
                         break;
                     }
                 }

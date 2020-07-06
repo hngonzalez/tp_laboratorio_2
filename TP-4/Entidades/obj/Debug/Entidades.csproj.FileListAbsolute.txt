@@ -1,0 +1,20 @@
+C:\Users\Nahue\Desktop\TP - 4\Gonzalez.HugoNahuel.2D.TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\Nahue\Desktop\TP - 4\Gonzalez.HugoNahuel.2D.TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Nahue\Desktop\TP - 4\Gonzalez.HugoNahuel.2D.TP4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Nahue\Desktop\TP - 4\Gonzalez.HugoNahuel.2D.TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Nahue\Desktop\TP - 4\Gonzalez.HugoNahuel.2D.TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\Nahue\Desktop\TP - 4\Gonzalez.HugoNahuel.2D.TP4\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Nahue\Downloads\tp_laboratorio_2-master (1)\tp_laboratorio_2-master\TP - 4\Entidades\bin\Debug\Entidades.dll
+C:\Users\Nahue\Downloads\tp_laboratorio_2-master (1)\tp_laboratorio_2-master\TP - 4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Nahue\Downloads\tp_laboratorio_2-master (1)\tp_laboratorio_2-master\TP - 4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Nahue\Downloads\tp_laboratorio_2-master (1)\tp_laboratorio_2-master\TP - 4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Nahue\Downloads\tp_laboratorio_2-master (1)\tp_laboratorio_2-master\TP - 4\Entidades\obj\Debug\Entidades.dll
+C:\Users\Nahue\Downloads\tp_laboratorio_2-master (1)\tp_laboratorio_2-master\TP - 4\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Nahue\Downloads\tp_laboratorio_2-master (1)\tp_laboratorio_2-master\TP - 4\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\Nahue\Desktop\Nueva carpeta (3)\tp_laboratorio_2\RecuperatoriosTP\TP - 4\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\Nahue\Desktop\Nueva carpeta (3)\tp_laboratorio_2\RecuperatoriosTP\TP - 4\Entidades\bin\Debug\Entidades.dll
+C:\Users\Nahue\Desktop\Nueva carpeta (3)\tp_laboratorio_2\RecuperatoriosTP\TP - 4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Nahue\Desktop\Nueva carpeta (3)\tp_laboratorio_2\RecuperatoriosTP\TP - 4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Nahue\Desktop\Nueva carpeta (3)\tp_laboratorio_2\RecuperatoriosTP\TP - 4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Nahue\Desktop\Nueva carpeta (3)\tp_laboratorio_2\RecuperatoriosTP\TP - 4\Entidades\obj\Debug\Entidades.dll
+C:\Users\Nahue\Desktop\Nueva carpeta (3)\tp_laboratorio_2\RecuperatoriosTP\TP - 4\Entidades\obj\Debug\Entidades.pdb

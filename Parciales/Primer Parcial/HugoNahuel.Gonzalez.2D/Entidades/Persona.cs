@@ -57,6 +57,7 @@ namespace Entidades
             }
             set
             {
+                ValidarPersonaSinDNI(value);
                 this.dni = value;
             }
         }
@@ -99,7 +100,7 @@ namespace Entidades
         {
             this.nombre     = nombre;
             this.apellido   = apellido;
-            this.dni        = dni;
+            this.Dni        = dni;
         }
 
         /// <summary>
@@ -117,6 +118,13 @@ namespace Entidades
         #endregion
 
         #region Methods
+        public void ValidarPersonaSinDNI(int value)
+        {
+            if (value < 1000000 )
+            {
+                throw new PersonaSinDNIException("DNI Incorrecto");
+            }
+        }
         #endregion
     }
 }

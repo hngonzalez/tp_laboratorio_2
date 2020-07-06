@@ -1,0 +1,18 @@
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesAbstractas\bin\Debug\EntidadesAbstractas.dll
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesAbstractas\bin\Debug\EntidadesAbstractas.pdb
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesAbstractas\bin\Debug\Excepciones.dll
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesAbstractas\bin\Debug\Excepciones.pdb
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.csprojAssemblyReference.cache
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.csproj.CoreCompileInputs.cache
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.csproj.CopyComplete
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.dll
+C:\Users\Nahue\source\repos\Gonzalez.HugoNahuel.2D.TP3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.pdb
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesAbstractas\bin\Debug\EntidadesAbstractas.dll
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesAbstractas\bin\Debug\EntidadesAbstractas.pdb
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesAbstractas\bin\Debug\Excepciones.dll
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesAbstractas\bin\Debug\Excepciones.pdb
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.csprojAssemblyReference.cache
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.csproj.CoreCompileInputs.cache
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.csproj.CopyComplete
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.dll
+C:\Users\Nahue\Downloads\tp_laboratorio_2_ANTES-master\tp_laboratorio_2_ANTES-master\RecuperatoriosTP\TP - 3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.pdb

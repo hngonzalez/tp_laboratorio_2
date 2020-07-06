@@ -1,0 +1,15 @@
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\HugoNahuel.Gonzalez.2D\bin\Debug\HugoNahuel.Gonzalez.2D.exe.config
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\HugoNahuel.Gonzalez.2D\bin\Debug\HugoNahuel.Gonzalez.2D.exe
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\HugoNahuel.Gonzalez.2D\bin\Debug\HugoNahuel.Gonzalez.2D.pdb
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\HugoNahuel.Gonzalez.2D\bin\Debug\Entidades.dll
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\HugoNahuel.Gonzalez.2D\bin\Debug\Entidades.pdb
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\HugoNahuel.Gonzalez.2D\obj\Debug\HugoNahuel.Gonzalez.2D.csprojAssemblyReference.cache
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\HugoNahuel.Gonzalez.2D\obj\Debug\HugoNahuel.Gonzalez._2D.Properties.Resources.resources
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\HugoNahuel.Gonzalez.2D\obj\Debug\HugoNahuel.Gonzalez.2D.csproj.GenerateResource.cache
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\HugoNahuel.Gonzalez.2D\obj\Debug\HugoNahuel.Gonzalez.2D.csproj.CoreCompileInputs.cache
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\HugoNahuel.Gonzalez.2D\obj\Debug\HugoNahuel.Gonzalez.2D.csproj.CopyComplete
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\HugoNahuel.Gonzalez.2D\obj\Debug\HugoNahuel.Gonzalez.2D.exe
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\HugoNahuel.Gonzalez.2D\obj\Debug\HugoNahuel.Gonzalez.2D.pdb
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\HugoNahuel.Gonzalez.2D\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\HugoNahuel.Gonzalez.2D\obj\Debug\HugoNahuel.Gonzalez._2D.JardinMain.resources
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\HugoNahuel.Gonzalez.2D\obj\Debug\HugoNahuel.Gonzalez._2D.Evaluando.resources
