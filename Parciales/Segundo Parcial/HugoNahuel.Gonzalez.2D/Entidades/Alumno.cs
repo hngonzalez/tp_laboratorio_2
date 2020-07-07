@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
+    [Serializable]
     public class Alumno
     {
         #region Atributtes
@@ -92,6 +93,23 @@ namespace Entidades
         #endregion
 
         #region Constructors
+        /// <summary>
+        /// Constructor de la clase Alumno
+        /// </summary>
+        public Alumno()
+        {
+
+        }
+
+        /// <summary>
+        /// Overload del constructor por default
+        /// </summary>
+        /// <param name="idalumno"></param>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="edad"></param>
+        /// <param name="dni"></param>
+        /// <param name="direccion"></param>
         public Alumno(int idalumno, string nombre, string apellido, int edad, int dni, string direccion)
         {
             this.IdAlumno = idalumno;

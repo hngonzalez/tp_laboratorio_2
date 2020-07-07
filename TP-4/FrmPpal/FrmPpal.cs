@@ -55,7 +55,7 @@ namespace FrmPpal
             {
                 correo += newPackage;
                 newPackage.InformaEstado += new Paquete.DelegadoEstado(paq_InformaEstado);
-                PaqueteDAO.ExceptionDAO += new DelegadoException(ErrorDAO);
+                //PaqueteDAO.ExceptionDAO += new DelegadoException(ErrorDAO);
             }
             catch (TrackingIdRepetidoException ex)
             {

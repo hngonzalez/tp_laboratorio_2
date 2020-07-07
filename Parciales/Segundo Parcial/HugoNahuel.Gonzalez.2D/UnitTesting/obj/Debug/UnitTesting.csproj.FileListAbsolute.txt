@@ -1,0 +1,16 @@
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\UnitTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\UnitTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\UnitTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\UnitTesting\bin\Debug\UnitTesting.dll
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\UnitTesting\bin\Debug\UnitTesting.pdb
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\UnitTesting\bin\Debug\Entidades.dll
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\UnitTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\UnitTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\UnitTesting\bin\Debug\Entidades.pdb
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\UnitTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\UnitTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\UnitTesting\obj\Debug\UnitTesting.csprojAssemblyReference.cache
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\UnitTesting\obj\Debug\UnitTesting.csproj.CoreCompileInputs.cache
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\UnitTesting\obj\Debug\UnitTesting.csproj.CopyComplete
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\UnitTesting\obj\Debug\UnitTesting.dll
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\Parciales\Segundo Parcial\HugoNahuel.Gonzalez.2D\UnitTesting\obj\Debug\UnitTesting.pdb

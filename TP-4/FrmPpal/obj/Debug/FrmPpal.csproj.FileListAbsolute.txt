@@ -48,3 +48,17 @@ C:\Users\Nahue\Desktop\Nueva carpeta (3)\tp_laboratorio_2\RecuperatoriosTP\TP - 
 C:\Users\Nahue\Desktop\Nueva carpeta (3)\tp_laboratorio_2\RecuperatoriosTP\TP - 4\FrmPpal\obj\Debug\FrmPpal.csproj.CopyComplete
 C:\Users\Nahue\Desktop\Nueva carpeta (3)\tp_laboratorio_2\RecuperatoriosTP\TP - 4\FrmPpal\obj\Debug\FrmPpal.exe
 C:\Users\Nahue\Desktop\Nueva carpeta (3)\tp_laboratorio_2\RecuperatoriosTP\TP - 4\FrmPpal\obj\Debug\FrmPpal.pdb
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-4\FrmPpal\obj\Debug\FrmPpal.csprojAssemblyReference.cache
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-4\FrmPpal\obj\Debug\FrmPpal.FrmPpal.resources
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-4\FrmPpal\obj\Debug\FrmPpal.Properties.Resources.resources
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-4\FrmPpal\obj\Debug\FrmPpal.csproj.GenerateResource.cache
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-4\FrmPpal\obj\Debug\FrmPpal.csproj.CoreCompileInputs.cache
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-4\FrmPpal\obj\Debug\FrmPpal.exe
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-4\FrmPpal\obj\Debug\FrmPpal.pdb
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-4\FrmPpal\bin\Debug\FrmPpal.exe.config
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-4\FrmPpal\bin\Debug\FrmPpal.exe
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-4\FrmPpal\bin\Debug\FrmPpal.pdb
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-4\FrmPpal\bin\Debug\Entidades.dll
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-4\FrmPpal\bin\Debug\Entidades.pdb
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-4\FrmPpal\bin\Debug\Entidades.dll.config
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-4\FrmPpal\obj\Debug\FrmPpal.csproj.CopyComplete

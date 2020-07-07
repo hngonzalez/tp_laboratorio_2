@@ -11,19 +11,23 @@ using System.Threading;
 using Entidades;
 
 namespace HugoNahuel.Gonzalez._2D
-{    
+{
+    #region Delegates
     public delegate void Atender(object o);
     public delegate void CargarAlumno(Alumno alumno, List<Docente> docentes, List<Aula> aulas);
+    #endregion
 
     public partial class JardinMain : Form
     {
+        #region Atributtes
         private Queue<Alumno> alumnosCola;
         private List<Aula> aulasLista;
         private List<Docente> docentesLista;
-
-        private Thread hiloLecturaXML;
         private Thread hiloEvaluarAlumno;
+        private Thread hiloRecreo;
         public event CargarAlumno EvaluoAlumno;
+        int segs = 0;
+        #endregion
 
         #region Constructors
         /// <summary>
@@ -34,10 +38,16 @@ namespace HugoNahuel.Gonzalez._2D
             InitializeComponent();
             alumnosCola = new Queue<Alumno>();
             alumnosCola = DataSQL.LeerAlumnosSQL();
+            aulasLista = new List<Aula>();
             aulasLista = DataSQL.LeerAulasSQL();
             docentesLista = new List<Docente>();
             //docentesLista = DataSQL.LeerDocentesSQL();
             LlenarCola(alumnosCola);
+            docentesLista.Add(new Docente("Alfredo", "ibanez", 45, 20000, "asdasdasd", 2, "masculino", "a@a.com"));
+            docentesLista.Add(new Docente("B", "ibanez", 45, 20001, "asdasdasd", 3, "masculino", "a@a.com"));
+            docentesLista.Add(new Docente("C", "dada", 45, 20002, "asdasdasd", 4, "masculino", "a@a.com"));
+            docentesLista.Add(new Docente("D", "ibansdsdez", 45, 20003, "asdasdasd", 5, "masculino", "a@a.com"));
+            docentesLista.Add(new Docente("F", "ibanerweez", 45, 20004, "asdasdasd", 6, "masculino", "a@a.com"));
         }
         #endregion
 
@@ -49,7 +59,8 @@ namespace HugoNahuel.Gonzalez._2D
         private void Form1_Load(object sender, EventArgs e)
         {
             Evaluando frmEvaluando = new Evaluando();
-            this.EvaluoAlumno += frmEvaluando.mostrarMensajePrincipal;
+            this.EvaluoAlumno += frmEvaluando.mostrarAlumno;
+            frmEvaluando.Top = this.Top;
             frmEvaluando.Show();
             /*hiloLecturaXML = new Thread(DataFiles.LeerDocentesXML);
             hiloLecturaXML.Start();*/   
@@ -62,31 +73,88 @@ namespace HugoNahuel.Gonzalez._2D
         /// <param name="e"></param>
         private void btnEvaluar_Click(object sender, EventArgs e)
         {
+            tmrEvaluando.Enabled = true;
             hiloEvaluarAlumno = new Thread(new ParameterizedThreadStart(proxAlumno));
+            hiloRecreo = new Thread(new ParameterizedThreadStart(MensajeRecreo));
 
             if (!hiloEvaluarAlumno.IsAlive)
             {
-                hiloEvaluarAlumno = new Thread(new ParameterizedThreadStart(proxAlumno));
                 hiloEvaluarAlumno.Start(aulasLista);
+                hiloRecreo.Start(lblRecreo);
             }
         }
 
+        /// <summary>
+        /// Método que llama a próximo alumno y actualiza la lista del primer hilo
+        /// </summary>
+        /// <param name="aulaLista"></param>
         private void proxAlumno(object aulaLista)
         {
-            if (alumnosCola.Count > 0)
-            { 
-                Atender(alumnosCola.Dequeue(), (List<Docente>) docentesLista, (List<Aula>) aulaLista);
+            while (alumnosCola.Count > 0)
+            {   
+                Atender(alumnosCola.Dequeue(), (List<Docente>)docentesLista, (List<Aula>)aulaLista);
+                if (lstbAlumnos.InvokeRequired)
+                {
+                    lstbAlumnos.BeginInvoke((MethodInvoker)delegate
+                    {
+                        lstbAlumnos.Items.Clear();
+                        LlenarCola(alumnosCola);
+                    });
+                }
+                else
+                {
+                    lstbAlumnos.Items.Clear();
+                    LlenarCola(alumnosCola);
+                }
+            }
+            tmrEvaluando.Enabled = false;
+            MessageBox.Show("La evaluación de los alumnos duró: " + lblTimer.Text + " segundos");
+            hiloEvaluarAlumno.Abort();
+        }
+
+        /// <summary>
+        /// Método para el hilo de mostrar mensaje
+        /// </summary>
+        /// <param name="aulaLista"></param>
+        private void MensajeRecreo(object o)
+        {
+            Label recreoMsg = (Label)o;
+
+            while (true)
+            {
+                Thread.Sleep(20000);
+                hiloEvaluarAlumno.Suspend();
+                if (recreoMsg.InvokeRequired)
+                {
+                    recreoMsg.BeginInvoke((MethodInvoker)delegate
+                    {
+                        recreoMsg.Text = "RECREO";
+
+                    });
+                }
+                Thread.Sleep(5000);
+                hiloEvaluarAlumno.Resume();
+                if (recreoMsg.InvokeRequired)
+                {
+                    recreoMsg.BeginInvoke((MethodInvoker)delegate
+                    {
+                        recreoMsg.Text = "";
+                    });
+                }
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="alumno"></param>
+        /// <param name="docentesLista"></param>
+        /// <param name="aulaLista"></param>
         private void Atender(Alumno alumno, List<Docente> docentesLista, List<Aula> aulaLista)
         {
-            EvaluoAlumno.Invoke(alumno, docentesLista, aulaLista);
-        }
-
-        private void mostrarMensajePrincipal(string palabra)
-        {
-
+            if (EvaluoAlumno.GetInvocationList().Count() > 0){
+                EvaluoAlumno.Invoke(alumno, docentesLista, aulaLista);
+            }            
         }
 
         /// <summary>
@@ -99,6 +167,17 @@ namespace HugoNahuel.Gonzalez._2D
             {
                 lstbAlumnos.Items.Add(alumno.Apellido + ", " + alumno.Nombre);
             }
+        }
+
+        private void Timer1_Tick(object sender, EventArgs e)
+        {
+            segs++;
+            lblTimer.Text = segs.ToString();
+        }
+
+        private void LblTimer_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

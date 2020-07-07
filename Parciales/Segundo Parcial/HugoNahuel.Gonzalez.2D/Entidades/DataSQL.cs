@@ -42,7 +42,10 @@ namespace Entidades
 
                 foreach (Docente docente in docentes)
                 {
-                    comando.CommandText = "insert into Docentes (idDocente, Nombre, Apellido, Edad, Sexo, Dni, Direccion, Email) values ('" + docente.Id + "','" + docente.Nombre + "','" + docente.Apellido + "','" + docente.Edad + "','" + docente.Sexo + "','" + docente.Dni + "','" + docente.Direccion + "','" + docente.Email + "')";    
+                    comando.CommandText = "insert into Docentes (idDocente, Nombre, Apellido, Edad, Sexo, Dni, Direccion, Email) " +
+                                          "values ('" + docente.Id + "','" + docente.Nombre + "','" + docente.Apellido + "','"
+                                                      + docente.Edad + "','" + docente.Sexo + "','" + docente.Dni + "','" 
+                                                      + docente.Direccion + "','" + docente.Email + "')";    
                     comando.ExecuteNonQuery();
                 }
             }
@@ -74,12 +77,8 @@ namespace Entidades
 
                 while (reader.Read())
                 {
-                    Alumno auxAlumno = new Alumno(reader.GetInt32(0),
-                                                  reader.GetString(1),
-                                                  reader.GetString(2),
-                                                  reader.GetInt32(3),
-                                                  reader.GetInt32(4),
-                                                  reader.GetString(5));
+                    Alumno auxAlumno = new Alumno(reader.GetInt32(0), reader.GetString(1), reader.GetString(2),
+                                                  reader.GetInt32(3), reader.GetInt32(4), reader.GetString(5));
                     
                     auxLista.Enqueue(auxAlumno);
                 }
@@ -133,7 +132,7 @@ namespace Entidades
         }
 
         /// <summary>
-        /// 
+        /// Lee los Docentes que hay cargados en la db
         /// </summary>
         /// <returns>Lista de aulas</returns>
         public static List<Docente> LeerDocentesSQL()
@@ -150,14 +149,9 @@ namespace Entidades
 
                 while (reader.Read())
                 {
-                    Docente auxDocente = new Docente(reader.GetString(0),
-                                                      reader.GetString(1),
-                                                      reader.GetInt32(2),
-                                                      reader.GetInt32(3),
-                                                      reader.GetString(4),
-                                                      reader.GetInt32(5),
-                                                      reader.GetString(6),
-                                                      reader.GetString(7));
+                    Docente auxDocente = new Docente(reader.GetString(0), reader.GetString(1), reader.GetInt32(2),
+                                                      reader.GetInt32(3), reader.GetString(4), reader.GetInt32(5),
+                                                      reader.GetString(6), reader.GetString(7));
 
                     auxLista.Add(auxDocente);
                 }
@@ -167,6 +161,32 @@ namespace Entidades
             catch (LecturaSQLException)
             {
                 throw new LecturaSQLException("Error al leer Docente en la base de datos");
+            }
+            finally
+            {
+                conexion.Close();
+            }
+        }
+
+        /// <summary>
+        /// Graba la evaluación del alumno en la db
+        /// </summary>
+        public static void GrabarEvaluacionSQL(Evaluaciones evaluacion)
+        {
+            try
+            {
+                conexion.Open();
+
+                comando.CommandText = "insert into Evaluaciones " +
+                                    " values ('"+ evaluacion.IdAlumno + "','"+ evaluacion.IdDocente + "','" + evaluacion.IdAula + "','"
+                                                + evaluacion.Nota1+ "','" + evaluacion.Nota2 + "','"+ evaluacion.Notafinal + "','"
+                                                + evaluacion.observaciones + "')";
+
+                comando.ExecuteNonQuery();
+            }
+            catch (GrabaEnSQLException)
+            {
+                throw new GrabaEnSQLException("Error al grabar evaluación en la base de datos");
             }
             finally
             {

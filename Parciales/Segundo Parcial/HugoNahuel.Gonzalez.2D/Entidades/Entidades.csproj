@@ -42,10 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Alumno.cs" />
+    <Compile Include="AlumSerializacionException.cs" />
     <Compile Include="Aula.cs" />
     <Compile Include="DataFiles.cs" />
     <Compile Include="Docente.cs" />
     <Compile Include="Evaluaciones.cs" />
+    <Compile Include="GrabaEnSQLException.cs" />
     <Compile Include="GrabaXMLSQLException.cs" />
     <Compile Include="LecturaException.cs" />
     <Compile Include="LecturaSQLException.cs" />
