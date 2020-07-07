@@ -23,6 +23,7 @@ namespace HugoNahuel.Gonzalez._2D
         private Queue<Alumno> alumnosCola;
         private List<Aula> aulasLista;
         private List<Docente> docentesLista;
+        private Thread hiloLecturaXML;
         private Thread hiloEvaluarAlumno;
         private Thread hiloRecreo;
         public event CargarAlumno EvaluoAlumno;
@@ -41,13 +42,13 @@ namespace HugoNahuel.Gonzalez._2D
             aulasLista = new List<Aula>();
             aulasLista = DataSQL.LeerAulasSQL();
             docentesLista = new List<Docente>();
-            //docentesLista = DataSQL.LeerDocentesSQL();
+            DataFiles.LeerDocentesXML();
             LlenarCola(alumnosCola);
-            docentesLista.Add(new Docente("Alfredo", "ibanez", 45, 20000, "asdasdasd", 2, "masculino", "a@a.com"));
+            /*docentesLista.Add(new Docente("Alfredo", "ibanez", 45, 20000, "asdasdasd", 2, "masculino", "a@a.com"));
             docentesLista.Add(new Docente("B", "ibanez", 45, 20001, "asdasdasd", 3, "masculino", "a@a.com"));
             docentesLista.Add(new Docente("C", "dada", 45, 20002, "asdasdasd", 4, "masculino", "a@a.com"));
             docentesLista.Add(new Docente("D", "ibansdsdez", 45, 20003, "asdasdasd", 5, "masculino", "a@a.com"));
-            docentesLista.Add(new Docente("F", "ibanerweez", 45, 20004, "asdasdasd", 6, "masculino", "a@a.com"));
+            docentesLista.Add(new Docente("F", "ibanerweez", 45, 20004, "asdasdasd", 6, "masculino", "a@a.com"));*/
         }
         #endregion
 
@@ -60,10 +61,9 @@ namespace HugoNahuel.Gonzalez._2D
         {
             Evaluando frmEvaluando = new Evaluando();
             this.EvaluoAlumno += frmEvaluando.mostrarAlumno;
+            docentesLista = DataSQL.LeerDocentesSQL();
             frmEvaluando.Top = this.Top;
             frmEvaluando.Show();
-            /*hiloLecturaXML = new Thread(DataFiles.LeerDocentesXML);
-            hiloLecturaXML.Start();*/   
         }
 
         /// <summary>

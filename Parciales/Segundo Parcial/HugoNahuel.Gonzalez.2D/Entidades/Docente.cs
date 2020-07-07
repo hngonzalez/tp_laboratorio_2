@@ -139,7 +139,7 @@ namespace Entidades
         /// <param name="id"></param>
         /// <param name="sexo"></param>
         /// <param name="email"></param>
-        public Docente(string nombre, string apellido, int edad, int dni, string direccion, int id, string sexo, string email)
+        public Docente(int id,string nombre, string apellido, int edad, string sexo, int dni, string direccion, string email)
             : this()
         {
             this.Nombre = nombre;

@@ -37,13 +37,13 @@ namespace Entidades
                 {
                     unDocente = listaDocentes.Item(i);
 
-                    auxListDocentes.Add(new Docente(unDocente.SelectSingleNode("Nombre").InnerText,
+                    auxListDocentes.Add(new Docente(Docente.ValidateStringToInt(unDocente.SelectSingleNode("Id").InnerText), 
+                                                    unDocente.SelectSingleNode("Nombre").InnerText,
                                                     unDocente.SelectSingleNode("Apellido").InnerText,
                                                     Docente.ValidateStringToInt(unDocente.SelectSingleNode("Edad").InnerText),
-                                                    Docente.ValidateStringToInt(unDocente.SelectSingleNode("Dni").InnerText),
-                                                    unDocente.SelectSingleNode("Direccion").InnerText,
-                                                    Docente.ValidateStringToInt(unDocente.SelectSingleNode("Id").InnerText),
                                                     unDocente.SelectSingleNode("Sexo").InnerText,
+                                                    Docente.ValidateStringToInt(unDocente.SelectSingleNode("Dni").InnerText),
+                                                    unDocente.SelectSingleNode("Direccion").InnerText,                                                    
                                                     unDocente.SelectSingleNode("Email").InnerText));
 
                     
@@ -113,7 +113,7 @@ namespace Entidades
 
                 miStream.Close();
 
-                throw new AlumSerializacionException();
+                //throw new AlumSerializacionException();
             }
             else
             {

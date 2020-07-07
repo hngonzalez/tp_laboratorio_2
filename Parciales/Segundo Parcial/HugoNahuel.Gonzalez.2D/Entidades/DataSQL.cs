@@ -42,10 +42,10 @@ namespace Entidades
 
                 foreach (Docente docente in docentes)
                 {
-                    comando.CommandText = "insert into Docentes (idDocente, Nombre, Apellido, Edad, Sexo, Dni, Direccion, Email) " +
+                    comando.CommandText = "SET IDENTITY_INSERT Docentes ON insert into Docentes (idDocente, Nombre, Apellido, Edad, Sexo, Dni, Direccion, Email) " +
                                           "values ('" + docente.Id + "','" + docente.Nombre + "','" + docente.Apellido + "','"
                                                       + docente.Edad + "','" + docente.Sexo + "','" + docente.Dni + "','" 
-                                                      + docente.Direccion + "','" + docente.Email + "')";    
+                                                      + docente.Direccion + "','" + docente.Email + "') SET IDENTITY_INSERT Docentes OFF";    
                     comando.ExecuteNonQuery();
                 }
             }
@@ -149,7 +149,7 @@ namespace Entidades
 
                 while (reader.Read())
                 {
-                    Docente auxDocente = new Docente(reader.GetString(0), reader.GetString(1), reader.GetInt32(2),
+                    Docente auxDocente = new Docente( reader.GetInt32(0), reader.GetString(1), reader.GetString(2),
                                                       reader.GetInt32(3), reader.GetString(4), reader.GetInt32(5),
                                                       reader.GetString(6), reader.GetString(7));
 

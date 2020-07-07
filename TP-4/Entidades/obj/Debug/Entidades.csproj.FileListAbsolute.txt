@@ -24,3 +24,4 @@ C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-4\Entidades\bin\
 C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-4\Entidades\obj\Debug\Entidades.dll
 C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-4\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Nahue\Desktop\Carpeta AUX para TPS\tp_laboratorio_2\TP-4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
